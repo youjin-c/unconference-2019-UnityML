@@ -845,20 +845,7 @@ to change the `batch_size` and `buffer_size` hyperparameters for your brain.)
 that you have followed the *Install Python and mlagents Package* section of the 
 ML-Agents [Installation](Installation.md) instructions.
 
-## Review: Scene Layout
-
-This section briefly reviews how to organize your scene when using Agents in
-your Unity environment.
-
-There are two kinds of game objects you need to include in your scene in order
-to use Unity ML-Agents: an Academy and one or more Agents. You also need to 
-have brain assets linked appropriately to your Agents and to the Academy.
-
-Keep in mind:
-
-* There can only be one Academy game object in a scene.
-* You can only train Learning Brains that have been added to the Academy's Broadcast Hub list.
-
+[More Info](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Create-New.md)
 
 # References
 [Unity ML-Agents Toolkit Documentation](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Readme.md)
