@@ -871,11 +871,10 @@ the steps described
 
 1. Drag your model file into `ML-Agents` to the `Project' window.
 2. Unlock the `Control` checkbox from `Academy` Gameobject.
-3. Select the  **3DBallLearning** Learning Brain from the Scene hierarchy.
-4. Drag the `<brain_name>.bytes` file from the Project window of
+3. Drag the `<brain_name>.bytes` file from the Project window of
    the Editor to the **Model** placeholder in the **RollerBallBrain**
    inspector window.
-5. Press the :arrow_forward: button at the top of the Editor.
+4. Press the :arrow_forward: button at the top of the Editor.
 
 
 [More Info](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Create-New.md)
