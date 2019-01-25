@@ -1,3 +1,4 @@
+
 # Contents
 0.Intro<br/>
 [1.Install Unity ML](#Installation) <br/>
@@ -13,7 +14,15 @@ training intelligent agents. Agents can be trained using **reinforcement learnin
 **imitation learning**, **neuroevolution**, or other machine learning methods through a
 simple-to-use Python API.<br/>
 ### What is reinforcement learning?<br/>
-https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Background-Machine-Learning.md
+[Background: Machine Learning](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Background-Machine-Learning.md)
+
+The goal of reinforcement learning is to learn a **policy**,
+which is essentially a mapping from **observations** to **actions**. An
+observation is what the robot can measure from its **environment** and an action, in its most raw form, is a change
+to the configuration of the robot. The last remaining piece of the reinforcement learning task is the **reward
+signal**. When training a robot to be a mean firefighting machine, we provide it
+with rewards (positive and negative) indicating how well it is doing on
+completing the task. 
 <p align="center">
   <img src="images/rl_cycle.png" alt="The reinforcement learning cycle."/>
 </p>
