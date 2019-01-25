@@ -845,6 +845,24 @@ to change the `batch_size` and `buffer_size` hyperparameters for your brain.)
 that you have followed the *Install Python and mlagents Package* section of the 
 ML-Agents [Installation](Installation.md) instructions.
 
+### After training
+
+You can press Ctrl+C to stop the training, and your trained model will be at
+`models/<run-identifier>/<brain_name>.bytes` where
+`<brain_name>` is the name of the Brain corresponding to the model. This file
+corresponds to your model's latest checkpoint. You can now embed this trained
+model into your Learning Brain by following the steps below, which is similar to
+the steps described
+
+1. Drag your model file into `ML-Agents` to the `Project' window.
+2. Unlock the `Control` checkbox from `Academy` Gameobject.
+3. Select the  **3DBallLearning** Learning Brain from the Scene hierarchy.
+4. Drag the `<brain_name>.bytes` file from the Project window of
+   the Editor to the **Model** placeholder in the **RollerBallBrain**
+   inspector window.
+5. Press the :arrow_forward: button at the top of the Editor.
+
+
 [More Info](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Create-New.md)
 
 # References
