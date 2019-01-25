@@ -845,21 +845,6 @@ to change the `batch_size` and `buffer_size` hyperparameters for your brain.)
 that you have followed the *Install Python and mlagents Package* section of the 
 ML-Agents [Installation](Installation.md) instructions.
 
-To monitor the statistics of Agent performance during training, use 
-[TensorBoard](Using-Tensorboard.md). 
-
-![TensorBoard statistics display](images/mlagents-RollerAgentStats.png)
-
-In particular, the *cumulative_reward* and *value_estimate* statistics show how 
-well the Agent is achieving the task. In this example, the maximum reward an 
-Agent can earn is 1.0, so these statistics approach that value when the Agent
-has successfully *solved* the problem.
-
-**Note:** If you use TensorBoard, always increment or change the `run-id` 
-you pass to the `mlagents-learn` command for each training run. If you use 
-the same id value, the statistics for multiple runs are combined and become 
-difficult to interpret.
-
 ## Review: Scene Layout
 
 This section briefly reviews how to organize your scene when using Agents in
