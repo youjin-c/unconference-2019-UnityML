@@ -14,6 +14,9 @@ training intelligent agents. Agents can be trained using **reinforcement learnin
 simple-to-use Python API.<br/>
 ### What is reinforcement learning?<br/>
 https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Background-Machine-Learning.md
+<p align="center">
+  <img src="images/rl_cycle.png" alt="The reinforcement learning cycle."/>
+</p>
 
 # Installation
 [Official Github page for download](https://github.com/Unity-Technologies/ml-agents)
