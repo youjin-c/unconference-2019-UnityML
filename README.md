@@ -6,8 +6,8 @@
 [Intro](#Intro)<br/>
 [Install Unity ML](#Installation)<br/>
 [Play with pre-trained environment](#Play-with-pre-trained-environment)<br/>
-Make your own environment <br/>
-References(#References)
+[Make your own environment](#Make-your-own-environment)<br/>
+[References](#References)
 
 # Intro
 ### What is Unity ML?<br/>
@@ -345,5 +345,8 @@ the steps described
 
 [More Info About UnitySDK environment setting](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Getting-Started-with-Balance-Ball.md)<br/>
 [Using an Environment Executable](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Executable.md)
+
+# Make your own environment
+
 # References
 [Unity ML-Agents Toolkit Documentation](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Readme.md)
