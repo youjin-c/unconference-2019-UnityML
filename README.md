@@ -35,15 +35,7 @@ overviews each step, in addition to a Docker set-up.
 
 ## Install **Unity 2017.4** or Later
 
-[Download](https://store.unity.com/download) and install Unity. If you would
-like to use our Docker set-up (introduced later), make sure to select the _Linux
-Build Support_ component when installing Unity.
-
-<p align="center">
-  <img src="images/unity_linux_build_support.png"
-       alt="Linux Build Support"
-       width="500" border="10" />
-</p>
+[Download](https://store.unity.com/download) and install Unity.
 
 ## Windows Users
 For setting up your environment on Windows, we have created a [detailed
