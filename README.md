@@ -66,7 +66,7 @@ dependencies listed in the [setup.py file](https://github.com/Unity-Technologies
 already have it.
 
 If your Python environment doesn't include `pip3`, see these
-[instructions](https://packaging.python.org/guides/installing-using-linux-tools/#installing-pip-setuptools-wheel-with-linux-package-managers)
+[instructions](https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/#installing-pip-for-python-3)
 on installing it.
 
 To install the dependencies and `mlagents` Python package, enter the
