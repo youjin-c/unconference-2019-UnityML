@@ -1,9 +1,22 @@
 # Contents
-[0.installing Unity ML](#Installation) <br/>
-1.play with pre-trained environment <br/>
-2.make your own environment <br/>
+0.Intro<br/>
+[1.Install Unity ML](#Installation) <br/>
+2.Play with pre-trained environment <br/>
+3.Make your own environment <br/>
+4.References(#References)
+
+# Intro
+### What is Unity ML?<br/>
+**The Unity Machine Learning Agents Toolkit** (ML-Agents) is an open-source
+Unity plugin that enables games and simulations to serve as environments for
+training intelligent agents. Agents can be trained using **reinforcement learning**,
+**imitation learning**, **neuroevolution**, or other machine learning methods through a
+simple-to-use Python API.<br/>
+### What is reinforcement learning?<br/>
+https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Background-Machine-Learning.md
 
 # Installation
+[Official Github page for download](https://github.com/Unity-Technologies/ml-agents)
 
 # References
-[Official Github page for download/tutorial](https://github.com/Unity-Technologies/ml-agents)
+[Unity ML-Agents Toolkit Documentation](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Readme.md)
