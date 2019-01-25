@@ -3,11 +3,11 @@
 **This workshop is for MacOS setting.**
 
 # Contents
-[0.Intro](#Intro)<br/>
-[1.Install Unity ML](#Installation)<br/>
-2.Play with pre-trained environment <br/>
-3.Make your own environment <br/>
-4.References(#References)
+[Intro](#Intro)<br/>
+[Install Unity ML](#Installation)<br/>
+[Play with pre-trained environment](#Play-with-pre-trainedenvironment)<br/>
+Make your own environment <br/>
+References(#References)
 
 # Intro
 ### What is Unity ML?<br/>
@@ -57,13 +57,37 @@ The `UnitySDK` subdirectory contains the Unity Assets to add to your projects.
 The `ml-agents` subdirectory contains Python packages which provide
 trainers and a Python API to interface with Unity.
 
+### Make Conda Python 3.6 Environment
+[Download Anaconda for Python 3.7](https://www.anaconda.com/download/#macos)
+```sh
+conda install python=3.6
+```
+Create a new conda environment with python3.6
+```sh
+conda create -n [myenv] python=3.6
+```
+Now please activate the new created environment.
+```sh
+source activate [myenv]
+```
+
+FYI,you can deactivate the environment by
+```sh
+source deactivate
+```
+you can check your conda environments with
+```sh
+conda info --envs
+```
+and if you need to install any package with that environment, you can do
+```sh
+conda install -n [myenv] [packagename, ex)scipy]
+```
+
 ### Install Python and mlagents Package
 
 In order to use ML-Agents toolkit, you need **Python 3.6** along with the
 dependencies listed in the [setup.py file](https://github.com/Unity-Technologies/ml-agents/blob/master/ml-agents/setup.py).
-
-[Download](https://www.python.org/downloads/) and install Python 3.6 if you do not
-already have it.
 
 If your Python environment doesn't include `pip3`, see these
 [instructions](https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/#installing-pip-for-python-3)
@@ -78,6 +102,9 @@ pip3 install -e .
 
 If you installed this correctly, you should be able to run
 `mlagents-learn --help`
-  
+
+# Play with pre-trained environment
+
+[More Info About UnitySDK](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Getting-Started-with-Balance-Ball.md)
 # References
 [Unity ML-Agents Toolkit Documentation](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Readme.md)
