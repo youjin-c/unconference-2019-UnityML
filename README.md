@@ -145,6 +145,7 @@ to the `Scripting Define Symbols` for each type of device you want to use
    `UnitySDK/Assets/ML-Agents` folder under **Assets** within Project window.
 
    ![Imported TensorFlowsharp](images/imported-tensorflowsharp.png)
+4. Also allow 'unsafe' code underneath it.
 
 ## Running a Pre-trained Model
 We've included pre-trained models for the 3D Ball example.
@@ -376,37 +377,9 @@ Your Unity **Project** window should contain the following assets:
 
 ![Project window](images/mlagents-NewProject.png)
 
-## Setting up the ML-Agents Toolkit within Unity
-
-In order to use the ML-Agents toolkit within Unity, you first need to change a few
-Unity settings. 
-
-1. Launch Unity
-2. On the Projects dialog, choose the **Open** option at the top of the window.
-3. Using the file dialog that opens, locate the `UnitySDK` folder
-   within the the ML-Agents toolkit project and click **Open**.
-4. Go to **Edit** > **Project Settings** > **Player**
-5. For **each** of the platforms you target (**PC, Mac and Linux Standalone**,
-   **iOS** or **Android**):
-    1. Expand the **Other Settings** section.
-    2. Select **Scripting Runtime Version** to **Experimental (.NET 4.6
-       Equivalent or .NET 4.x Equivalent)**
-6. Go to **File** > **Save Project**
-
 ## Setting up TensorFlowSharp
 
-We provide pre-trained models (`.bytes` files) for all the agents 
-in all our demo environments. To be able to run those models, you'll 
-first need to set-up TensorFlowSharp support. Consequently, you need to install 
-the TensorFlowSharp plugin to be able to run these models within the Unity 
-Editor. 
-
-1. Download the [TensorFlowSharp Plugin](https://s3.amazonaws.com/unity-ml-agents/0.5/TFSharpPlugin.unitypackage)
-2. Import it into Unity by double clicking the downloaded file. You can check 
-if it was successfully imported by checking the
-TensorFlow files in the Project window under **Assets** > **ML-Agents** >
-**Plugins** > **Computer**.
-3. Go to **Edit** > **Project Settings** > **Player** and add `ENABLE_TENSORFLOW`
+1. Go to **Edit** > **Project Settings** > **Player** and add `ENABLE_TENSORFLOW`
 to the `Scripting Define Symbols` for each type of device you want to use 
 (**`PC, Mac and Linux Standalone`**, **`iOS`** or **`Android`**).
 
@@ -416,6 +389,7 @@ to the `Scripting Define Symbols` for each type of device you want to use
    `UnitySDK/Assets/ML-Agents` folder under **Assets** within Project window.
 
    ![Imported TensorFlowsharp](images/imported-tensorflowsharp.png)
+2. Also allow 'unsafe' code underneath it.
 
 
 ## Create the Environment
