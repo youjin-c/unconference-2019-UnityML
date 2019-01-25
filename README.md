@@ -1,6 +1,6 @@
-**THIS IS A SIMPLFIED TUTORIAL OF UNITY ML AGENT, FOR A STEP-BY-STEP WORKSHOP AT ITP UNCONFERENCE.**<br/>
-**IF YOU NEED A THOROUGH INFO OF UNITY ML, PLEASE CHECK THEIR [OFFICIAL GITHUB REPO](https://github.com/Unity-Technologies/ml-agents).**<br/>
-**THE WORKSHOP IS FOR MACOS SETTING MOSTLY.**
+**This is a SIMPLFIED TUTORIAL of Unity ML agent, for a step-by-step workshop at ITP Unconference.**<br/>
+**If you need a thorough info of Unity ML agent, please check their [official Github page](https://github.com/Unity-Technologies/ml-agents).**<br/>
+**This workshop is for MacOS setting.**
 
 # Contents
 0.Intro(#Intro)<br/>
