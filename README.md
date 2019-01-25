@@ -65,11 +65,11 @@ conda install python=3.6
 ```
 Create a new conda environment with python3.6
 ```sh
-conda create -n [myenv] python=3.6
+conda create -n <myenv> python=3.6
 ```
 Now please activate the new created environment.
 ```sh
-source activate [myenv]
+source activate <myenv>
 ```
 
 FYI,you can deactivate the environment by
@@ -82,7 +82,7 @@ conda info --envs
 ```
 and if you need to install any package with that environment, you can do
 ```sh
-conda install -n [myenv] [packagename, ex)scipy]
+conda install -n <myenv> <packagename, ex)scipy>
 ```
 
 ### Install Python and mlagents Package
@@ -851,7 +851,7 @@ in this simple environment, speeds up training.
 To train in the editor, run the following Python command from a Terminal or Console 
 window before pressing play:
 
-    mlagents-learn config/[new_config_we_made].yaml --run-id=RollerBall-1 --train
+    mlagents-learn config/<new_config_we_made>.yaml --run-id=RollerBall-1 --train
 
 (where `config.yaml` is a copy of `trainer_config.yaml` that you have edited 
 to change the `batch_size` and `buffer_size` hyperparameters for your brain.)
