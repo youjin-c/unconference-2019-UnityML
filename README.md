@@ -175,18 +175,6 @@ We've included pre-trained models for the 3D Ball example.
 
    ![Running a pretrained model](images/running-a-pretrained-model.gif)
 
-## Using the Basics Jupyter Notebook
-
-The `notebooks/getting-started.ipynb` [Jupyter notebook](Background-Jupyter.md)
-contains a simple walkthrough of the functionality of the Python API. It can
-also serve as a simple test that your environment is configured correctly.
-Within `Basics`, be sure to set `env_name` to the name of the Unity executable
-if you want to [use an executable](Learning-Environment-Executable.md) or to
-`None` if you want to interact with the current scene in the Unity Editor.
-
-More information and documentation is provided in the
-[Python API](Python-API.md) page.
-
 ## Training the Brain with Reinforcement Learning
 
 ### Setting up the enviornment for training
@@ -355,21 +343,7 @@ the steps described
    inspector window.
 6. Press the :arrow_forward: button at the top of the Editor.
 
-## Next Steps
-
-- For more information on the ML-Agents toolkit, in addition to helpful
-  background, check out the [ML-Agents Toolkit Overview](ML-Agents-Overview.md)
-  page.
-- For a more detailed walk-through of our 3D Balance Ball environment, check out
-  the [Getting Started](Getting-Started-with-Balance-Ball.md) page.
-- For a "Hello World" introduction to creating your own Learning Environment,
-  check out the [Making a New Learning
-  Environment](Learning-Environment-Create-New.md) page.
-- For a series of Youtube video tutorials, checkout the
-  [Machine Learning Agents PlayList](https://www.youtube.com/playlist?list=PLX2vGYjWbI0R08eWQkO7nQkGiicHAX7IX)
-  page.
-
-
-[More Info About UnitySDK](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Getting-Started-with-Balance-Ball.md)
+[More Info About UnitySDK setting](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Getting-Started-with-Balance-Ball.md)<br/>
+[Using an Environment Executable](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Executable.md)
 # References
 [Unity ML-Agents Toolkit Documentation](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Readme.md)
