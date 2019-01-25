@@ -807,8 +807,8 @@ status information in the Game window.
 
 ## Training the Environment
 
-Now you can train the Agent. To get ready for training, you must first to change
-the `Brain` of the agent to be the Learning Brain `RollerBallBrain`.
+Now you can train the Agent. To get ready for training, ***you must first to change
+the `Brain` of the agent to be the Learning Brain `RollerBallBrain`.***
 Then, select the Academy GameObject and check the `Control` checkbox for 
 the RollerBallBrain item in the **Broadcast Hub** list. From there, the process is
 the same as described in [Training ML-Agents](Training-ML-Agents.md).
