@@ -53,7 +53,7 @@ git clone https://github.com/Unity-Technologies/ml-agents.git
 ```
 
 The `UnitySDK` subdirectory contains the Unity Assets to add to your projects.
-It also contains many [example environments](Learning-Environment-Examples.md)
+It also contains many [example environments](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md)
 to help you get started.
 
 The `ml-agents` subdirectory contains Python packages which provide
@@ -64,11 +64,11 @@ The `gym-unity` subdirectory contains a package to interface with OpenAI Gym.
 ### Install Python and mlagents Package
 
 In order to use ML-Agents toolkit, you need **Python 3.6** along with the
-dependencies listed in the [setup.py file](../ml-agents/setup.py).
+dependencies listed in the [setup.py file](https://github.com/Unity-Technologies/ml-agents/blob/master/ml-agents/setup.py).
 Some of the primary dependencies include:
 
-- [TensorFlow](Background-TensorFlow.md)
-- [Jupyter](Background-Jupyter.md)
+- [TensorFlow](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Background-TensorFlow.md)
+- [Jupyter](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Background-Jupyter.md)
 
 [Download](https://www.python.org/downloads/) and install Python 3.6 if you do not
 already have it.
