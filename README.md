@@ -1,4 +1,5 @@
 **THIS IS A SIMPLIFIED TUTORIAL OF UNITY ML AGENT, FOR STEP BY STEP WORKSHOP AT ITP UNCONFERENCE**
+**THE BASIC SETTING FOR THIS WORKSHOP IS MACOS**
 
 # Contents
 0.Intro(#Intro)<br/>
@@ -30,17 +31,15 @@ completing the task.
 
 # Installation
 To install and use ML-Agents, you need to install Unity, clone this repository and
-install Python with additional dependencies. Each of the subsections below
-overviews each step, in addition to a Docker set-up.
+install Python with additional dependencies. 
 
 ## Install **Unity 2017.4** or Later
 
 [Download](https://store.unity.com/download) and install Unity.
 
 ## Windows Users
-For setting up your environment on Windows, we have created a [detailed
-guide](Installation-Windows.md) to setting up your env. For Mac and Linux,
-continue with this guide.
+For setting up your environment on Windows, they have created a [detailed
+guide](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation-Windows.md) to setting up your env. For Mac and Linux, continue with this guide.
 
 ## Mac and Unix Users
 
