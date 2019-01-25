@@ -29,8 +29,6 @@ completing the task.
 </p>
 
 # Installation
-[Official Github page for download](https://github.com/Unity-Technologies/ml-agents)
-
 To install and use ML-Agents, you need to install Unity, clone this repository and
 install Python with additional dependencies. Each of the subsections below
 overviews each step, in addition to a Docker set-up.
@@ -73,7 +71,7 @@ The `gym-unity` subdirectory contains a package to interface with OpenAI Gym.
 
 ### Install Python and mlagents Package
 
-In order to use ML-Agents toolkit, you need Python 3.6 along with the
+In order to use ML-Agents toolkit, you need **Python 3.6** along with the
 dependencies listed in the [setup.py file](../ml-agents/setup.py).
 Some of the primary dependencies include:
 
@@ -96,14 +94,6 @@ pip3 install -e .
 
 If you installed this correctly, you should be able to run
 `mlagents-learn --help`
-
-**Notes:**
-
-- We do not currently support Python 3.7 or Python 3.5.
-- If you are using Anaconda and are having trouble with TensorFlow, please see
-  the following
-  [note](https://www.tensorflow.org/install/install_mac#installing_with_anaconda)
-  on how to install TensorFlow in an Anaconda environment.
   
 # References
 [Unity ML-Agents Toolkit Documentation](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Readme.md)
