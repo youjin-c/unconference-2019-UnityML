@@ -5,7 +5,7 @@
 # Contents
 [Intro](#Intro)<br/>
 [Install Unity ML](#Installation)<br/>
-[Play with pre-trained environment](#Play-with-pre-trainedenvironment)<br/>
+[Play with pre-trained environment](#Play-with-pre-trained-environment)<br/>
 Make your own environment <br/>
 References(#References)
 
